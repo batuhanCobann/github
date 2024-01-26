@@ -1,0 +1,397 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Space Mono', monospace;
+}
+
+body{
+    background: #F6F8FF;
+    color: #141D2F;
+    justify-content: center;
+    align-items: center;
+    transition: 300ms all;
+
+
+    .conteiner{
+        color: #141D2F;
+        display: flex;
+        align-items: center;    
+        margin: 144px auto 0px auto;
+        width: 730px;
+        height: 39px;
+        flex-shrink: 0;
+        h1{
+            color: #141D2F;
+            font-size: 26px;
+            font-weight: 700;
+        }
+        p{  
+            color: #141D2F;
+            margin-left: 545px;
+            text-align: right;
+            font-size: 13px;
+            font-weight: 700;
+            letter-spacing: 2.5px;
+            cursor: pointer;
+        }
+    }
+    
+    .search{
+        color: #141D2F;
+        display: flex;
+        align-items: center;
+        margin: 35px auto;
+        width: 730px;
+        height: 69px;
+        border-radius: 15px;
+        background: #F6F8FF;
+        box-shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.20);
+        margin-top: 22px;
+        img{
+            margin: 0px 0px 0px 32px;
+        }
+    }
+    
+    .search-input{
+        color: #141D2F;
+        border: none;
+        margin: 22px 0px 22px 24px;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 25px;
+        width: 500px;
+        height: 30px;
+        background-color: #F6F8FF;
+        
+    }
+    
+    .search-btn{
+        color: #141D2F;
+        margin: auto 10px auto 30px;
+        width: 106px;
+        height: 50px;
+        border-radius: 10px;
+        background: #0079FF;
+        color: #FFF;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: normal;
+        border: none;
+        cursor: pointer;
+    }
+    
+    
+    .conteiner-body{
+        color: #141D2F;
+        align-items: center;
+        display: flex;
+        margin: auto;
+        width: 730px;
+        height: 419px;
+        background: #FEFEFE;
+        border-radius: 15px;
+        box-shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.20);
+        
+    }
+    
+    .body-conteiner{
+        color: #141D2F;
+        margin: -30px auto 38px auto;
+        display: flex;
+        img{
+            width: 117px;
+            height: 117px;
+            border-radius: 117px;
+            margin: 48px 0px 4px 48px;
+        }
+    
+    }
+    
+    .body-text{
+        h1{
+            color: #141D2F;
+            margin: 48px 0px 2px 45px;
+            font-size: 26px;
+            font-weight: 700;
+        }
+        a{
+            color: #141D2F;
+            margin: 0px 0px 0px 45px; 
+            color: #0079FF;
+            font-size: 16px;
+            font-weight: 400;
+            text-decoration: none;
+        }
+        a:visited{
+            color:#0079FF;
+        }
+        p{
+            color: #141D2F;
+            font-size: 15px;
+            font-weight: 400;
+            margin: 20px 0px 0px 45px;
+        }
+        
+    }
+    
+    
+    .date{
+        margin: 52px 48px 0px 100px;
+        p{
+            color: #141D2F;
+            font-size: 15px;
+            font-weight: 400;
+        }
+    }
+    
+    .mini-body{
+            display: flex;
+            margin: -20px 48px 0px 202px;
+            width: 480px;
+            height: 85px;
+            background: #F6F8FF;
+            border-radius: 10px;
+            p{
+                color: #141D2F;
+                font-size: 13px;
+                font-weight: 400;
+            }
+        }
+    
+        .repos{
+            margin: auto 0px auto 32px;
+        }
+    
+        .followers{
+            margin: auto 0px auto 99px;
+        }
+    
+        .following{
+            margin: auto 0px auto 99px;
+        }
+    
+    
+        .social-media{
+            display: flex;
+            p{
+            color: #141D2F;
+            font-size: 15px;
+            font-weight: 400;
+            margin: 19px 0px 0px 0px;
+            }
+        }
+    
+        .social-media1{
+            margin: 37px 0px 0px 234px;
+        }
+    
+        .social-media2{
+            margin: 37px 99px 0px 90px;
+    
+        }
+    
+    
+}
+
+body.dark{
+    background: #141D2F;
+    color: #F6F8FF;
+    justify-content: center;
+    align-items: center;
+
+
+    .conteiner{
+        color: #F6F8FF;
+        display: flex;
+        align-items: center;    
+        margin: 144px auto 0px auto;
+        width: 730px;
+        height: 39px;
+        flex-shrink: 0;
+        h1{
+            color: #F6F8FF;
+            font-size: 26px;
+            font-weight: 700;
+        }
+        p{
+            color: #F6F8FF;
+            margin-left: 545px;
+            text-align: right;
+            font-size: 13px;
+            font-weight: 700;
+            letter-spacing: 2.5px;
+            cursor: pointer;
+        }
+    }
+    
+    .search{
+        display: flex;
+        align-items: center;
+        margin: 35px auto;
+        width: 730px;
+        height: 69px;
+        border-radius: 15px;
+        background: #1E2A47;
+        box-shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.20);
+        margin-top: 22px;
+        img{
+            margin: 0px 0px 0px 32px;
+        }
+    }
+    
+    .search-input{
+        border: none;
+        margin: 22px 0px 22px 24px;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 25px;
+        width: 500px;
+        height: 30px;
+        background-color: #1E2A47;
+        
+    }
+    
+    .search-btn{
+        margin: auto 10px auto 30px;
+        width: 106px;
+        height: 50px;
+        border-radius: 10px;
+        background: #0079FF;
+        color: #FFF;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: normal;
+        border: none;
+        cursor: pointer;
+    }
+    
+    
+    .conteiner-body{
+        align-items: center;
+        display: flex;
+        margin: auto;
+        width: 730px;
+        height: 419px;
+        background-color: #1E2A47;
+        border-radius: 15px;
+        
+    }
+    
+    .body-conteiner{
+        margin: -30px auto 38px auto;
+        display: flex;
+        img{
+            width: 117px;
+            height: 117px;
+            border-radius: 117px;
+            margin: 48px 0px 4px 48px;
+        }
+    
+    }
+    
+    .body-text{
+        h1{
+            color: #FFF;
+            margin: 48px 0px 2px 45px;
+            font-size: 26px;
+            font-weight: 700;
+        }
+        a{
+            margin: 0px 0px 0px 45px; 
+            color: #0079FF;
+            font-size: 16px;
+            font-weight: 400;
+            text-decoration: none;
+        }
+        a:visited{
+            color:#0079FF;
+        }
+        p{
+            color: #FFF;
+            font-size: 15px;
+            font-weight: 400;
+            margin: 20px 0px 0px 45px;
+        }
+        
+    }
+    
+    
+    .date{
+        margin: 52px 48px 0px 100px;
+        p{
+            color: #FFF;
+            font-size: 15px;
+            font-weight: 400;
+        }
+    }
+    
+    .mini-body{
+            color: #FFF;
+            display: flex;
+            margin: -20px 48px 0px 202px;
+            width: 480px;
+            height: 85px;
+            background-color: #141D2F;
+            border-radius: 10px;
+            p{
+                color: #FFF;
+                font-size: 13px;
+                font-weight: 400;
+            }
+        }
+    
+        .repos{
+            margin: auto 0px auto 32px;
+        }
+    
+        .followers{
+            margin: auto 0px auto 99px;
+        }
+    
+        .following{
+            margin: auto 0px auto 99px;
+        }
+    
+    
+        .social-media{
+            display: flex;
+            p{
+            color: #FFF;
+            font-size: 15px;
+            font-weight: 400;
+            margin: 19px 0px 0px 0px;
+            }
+        }
+    
+        .social-media1{
+            margin: 37px 0px 0px 234px;
+        }
+    
+        .social-media2{
+            margin: 37px 99px 0px 90px;
+    
+        }
+    
+    
+    
+}
+
+.mode-control input {
+    position: absolute;
+    opacity: 0;
+}
+
+.mode-control span:nth-of-type(2){
+    display: none;
+}
+
+.mode-control input:checked + span{
+    display: none;
+}
+
+.mode-control input:checked + span + span{
+    display: inline-block;
+}
+
+
