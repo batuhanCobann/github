@@ -111,7 +111,7 @@ body{
     .body-text{
         h1{
             color: #141D2F;
-            margin: 48px 0px 2px 45px;
+            margin: 48px 0px 2px 40px;
             font-size: 26px;
             font-weight: 700;
         }
@@ -130,7 +130,7 @@ body{
             color: #141D2F;
             font-size: 15px;
             font-weight: 400;
-            margin: 20px 0px 0px 45px;
+            margin: 20px -221px 0px 45px;
         }
         
     }
@@ -183,11 +183,11 @@ body{
         }
     
         .social-media1{
-            margin: 37px 0px 0px 234px;
+            margin: 20px 0px 0px 200px;
         }
     
         .social-media2{
-            margin: 37px 99px 0px 90px;
+            margin: 20px 60px 0px 90px;
     
         }
     
@@ -293,7 +293,7 @@ body.dark{
     .body-text{
         h1{
             color: #FFF;
-            margin: 48px 0px 2px 45px;
+            margin: 48px 0px 2px 40px;
             font-size: 26px;
             font-weight: 700;
         }
@@ -311,7 +311,7 @@ body.dark{
             color: #FFF;
             font-size: 15px;
             font-weight: 400;
-            margin: 20px 0px 0px 45px;
+            margin: 20px -221px 0px 45px;
         }
         
     }
@@ -365,11 +365,11 @@ body.dark{
         }
     
         .social-media1{
-            margin: 37px 0px 0px 234px;
+            margin: 20px 0px 0px 200px;
         }
     
         .social-media2{
-            margin: 37px 99px 0px 90px;
+            margin: 20px 60px 0px 90px;
     
         }
     

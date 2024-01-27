@@ -12,7 +12,7 @@ const digitalCard = document.querySelector(".conteiner-body")
 
 
 async function card(){
-    const card = await fetch("https://api.github.com/users/orhanekici ");
+    const card = await fetch("https://api.github.com/users/batuhanCobann ");
     const data =  await card.json();
     return [data];    
   
@@ -29,7 +29,7 @@ async function getCard(){
                 <div class="body-text">
                     <h1>${user.name}</h1>
                     <a href="https://github.com/orhanekici" target="_blank">@orhanekici</a>
-                    <p>This profile has no bio</p>
+                    <p>${user.bio}</p>
                 </div>
                 <div class="date">
                     <p>Joined 12 Fab 2014</p>
